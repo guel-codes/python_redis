@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-redis"
+version = "0.1.0"
+description = "This is a project for a python based key-value store"
+authors = ["Miguel Johnson <miguelbjohnson@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_redis"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gevent = "^23.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
